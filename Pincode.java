@@ -7,9 +7,9 @@ public class Pincode {
 	public static void main(String[] args) {
 		List<String> pincodes = new ArrayList<String>();
 
-		pincodes.add("400088B");
+		pincodes.add("400 088");
 
-		String regex = "^[0-9]{6}$";
+		String regex = "^[1-9]{1}[0-9]{2}[' ']{1}[0-9]{3}$";
 
 		Pattern pattern = Pattern.compile(regex);
 
